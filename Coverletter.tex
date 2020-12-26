@@ -1,0 +1,40 @@
+\documentclass[localFont,alternative]{documentMETADATA}
+\name{Shaun}{Fedrick}
+\tagline{Physics / Mechanical Engineer | Student}
+
+\photo{6 cm}{Penn}
+
+
+
+\socialinfo{
+	\linkedin{sfedrick}
+	\personalLink{shaunclfedrick@gmail.com}\\
+	\smartphone{+1 954 440 8279}
+	\email{sfedrick@haverford.edu}\\
+	\address{Miami, Florida}
+	\infos{U.S. Citizen}
+}
+
+\makeatletter
+\renewcommand\idphoto{%
+\includegraphics[width=\@photodiameter,height=\@photodiameter,keepaspectratio]{\@photo}}
+
+\makeatother
+
+
+ 
+\begin{document}
+
+
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{}} %\selectlanguage{english}\today
+		{\textsc{Shaun Fedrick- Cover Letter }}
+		{\thepage}
+
+	\input{section_coverletter}                % Research Statement
+
+
+\end{document}
