@@ -230,7 +230,7 @@
 
 % Render author's personal website (optional)
 % Usage: \personalLink{<website-without-http://www.>}
-\newcommand*{\personalLink}[1]{\sociallink{\linkSymbol}{http://www.#1}{#1}}
+\newcommand*{\personalLink}[2]{\sociallink{\linkSymbol}{#1}{#2}}
 
 
 % Render author's viadeo(optional)
