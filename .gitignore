@@ -1,0 +1,6 @@
+
+#ignore gz files 
+*.gz
+#ignore log files
+*.log
+*.aux
