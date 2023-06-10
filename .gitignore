@@ -1,2 +1,7 @@
 
 #ignore gz files tex file outputs
+*.gz
+*.log
+*.aux
+*.out
+*.synctex.gz
