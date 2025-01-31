@@ -5,25 +5,23 @@
 \begin{experiences}
 
 \experience
-  {Jan 2022}      {Mechatronics Engineer |  Motion Planning and Controls }{ASML}{Wilton,Ct}
-  {current} {Currently I work to implement motion planning software onto a 6dof robotic reticle stage. This involves simulating the dynamics of the stage and creating/implementing appropriate algorithms to control the stage.
+  {Jan 2022}      {Mechatronics Engineer |  Software Algorithms and Motion Control }{ASML}{Wilton,Ct}
+  {current} {Currently, I work to implement robotic software onto a 6dof robotic reticle stage. This involves designing/implementing perception algorithms, simulating the dynamics of the stage, and designing/implementing other appropriate software algorithms to help control the robotic stage.
 			\begin{itemize}
-			\item Designed, developed, and tested  a software algorithm  that used numerical optimization techniques to optimize motor control 					parameters for reluctance actuators given robotic force data. Data was collected using a HIL (hardware in the loop) approach and analyzed in matlab. The control scheme was implemented in simulink, and the software algorithm was implemented on the machine using a combination of matlab and python.
-			\item Refactored a code base designed to simulate the dynamics of a 6 dof robotic reticle stage. Transfered this code base into a modern version 					control system (git) from svn to aid software collaboration and tracking.
-			\item Designed, developed, and tested a software algorithm that used the kinematics of a robotic stage to prevent thermal stresses 						from damaging the motors. 
-           		\item Lead the development of two new mechatronic tools that will enable automatic testing of electro-
-nics,hardware, and control methodologies of a 6 dof robotic reticle stage.
+			\item Developed a computer vision algorithm that took 3d scans of moving wire ducts undergoing lifetime cycling and calculated the amount of wear the wires experienced from the scan movements. This algorithm was then utilized to create a predictive model for when ducts in the field will require replacement.
+			\item Designed, developed, and tested  a software algorithm  that used numerical optimization techniques to optimize motor control 					parameters for reluctance actuators given robotic force data. Data was collected using a HIL (hardware in the loop) approach and analyzed in python. The software algorithm was implemented on the machine using a combination of Matlab and Python.
+			\item Made a algorithm that processed video data of a robotic stage taking movement scans and extracted the shape of the moving wires on the platform to facilitate mechanical design optimization.
+			\item Performed regression testing for new motor calibration software module, and wrote scripts to automate testing and analysis.
+           		\item Created shell scripts to facilitate large scale automation of testing and experimentation on the robotic stage.	
 		 	\end{itemize} 
                  }
-                {Robotics, controls, Machine Learning,Data Analysis, Tensor flow, Pytorch, Scipy,Simulation, Python, C++, Linear Algebra, Statistics, Agile}   
+                {Computer vision, Machine Learning,Data Analysis, Tensor flow, Pytorch, Scipy,Simulation, Python, C++, Linear Algebra, video processing, shell scripts}   
  \experience
     {May 2021}     {GRASP Lab | Graduate Student Researcher (Robotics)  }{ University of Pennsylvania}{Pennsylvania}
-    {Dec 2021}    {I used a phase change material coupled with a heated insert to create a latching mechanism to add directionality to an origami robot. I then designed and implemented a controller in C++ that ran on a micro controller in real time to control the mechanism .
+    {Dec 2021}    {Designed and implemented a controller in C++ that ran on a micro controller in real time to add directionality to an origami robot.
                       \begin{itemize}
-			\item Designed and optimized a nonlinear controller using ILC (Iterative Learning Control) 
-			\item wrote a monte carlo application in python to pick design parameters for an origami robot.
-			\item Wrote a controller in C++ to control the latching mechanism.
-			\item  See DOI:10.1109/ICRA40945.2020.9196534 for more information on the robot.
+			\item Implemented a monte carlo algorithm in python to pick design parameters for an origami robot.
+			\item Wrote a controller in C++ to control the latching mechanism that added directionality to the robot.
                       \end{itemize}
                     }
                     {C++, Python,Controls, Rapid Prototyping,Git,Docker, Data Analysis, Robotics}
@@ -32,8 +30,8 @@ nics,hardware, and control methodologies of a 6 dof robotic reticle stage.
     {May 2020} {
   I worked in collaboration with University of Pennsylvania and Haverford College to investigate the way Non-Newtonian effects impacted lubrication forces within a fluid.
                       \begin{itemize}
-                        \item  Used Python to perform data analysis on real word data to determine the dynamics of a complex non-newtonian fluid system.
-                         \item Analyzed and tracked mechanics of a sphere moving through a fluid using OpenCV.
+                         \item Used video processing and computer vision techniques to analyze and track the mechanics of a sphere moving through a fluid using OpenCV.
+                         \item  Used Python to perform data analysis on real word data to determine the dynamics of a complex non-newtonian fluid system.
                       \end{itemize}
                     }
                     {OpenCV, Python, Computational Physics, Computer Vision, Rapid Prototyping}
@@ -43,8 +41,9 @@ nics,hardware, and control methodologies of a 6 dof robotic reticle stage.
     I worked on https://archivogam.haverford.edu/en/, a website designed to connect persons illegally detained and forcibly disappeared in Guatemala during the Civil War with friends and relatives.
                       \begin{itemize}
                        \item Wrote the front and back end of Home and Images Section of Archivo Gam using django.
-		     \item Implemented a panning zoom feature and a person search feature.
+		     \item Wrote various shell scripts to facilitate development, testing, and deployment.
+		     
                       \end{itemize}
                     }
-                    {Python, Linux, Django, git, command line }
+                    {Python, Linux, Shell Scripts, Django, git, command line }
 \end{experiences}
